@@ -55,7 +55,7 @@ Este portafolio utiliza un estilo **minimalista y moderno inspirado en la estét
 
 Este sitio está publicado mediante **GitHub Pages**.  
 Puedes acceder a la versión en línea desde:  
-🔗 [https://jaimegomezmesa.github.io](https://jaimegomezmesa.github.io)
+🔗 [https://jgommes1501.github.io/mi-p-gina/](https://jgommes1501.github.io/mi-p-gina/)
 
 ---
 
