@@ -10,21 +10,11 @@
 
   <style>
     :root {
-      --bg: #fdfdfd;
-      --text: #1e1e1e;
-      --accent: #e11d48;
-      --muted: #71717a;
-      --card: #ffffff;
-    }
-
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #0f172a;
-        --text: #f1f5f9;
-        --accent: #f43f5e;
-        --muted: #94a3b8;
-        --card: #1e293b;
-      }
+      --bg: #0f172a;        /* Fondo general */
+      --text: #f1f5f9;      /* Texto principal */
+      --accent: #f43f5e;    /* Rojo japonés */
+      --muted: #94a3b8;     /* Texto secundario */
+      --card: #1e293b;      /* Fondo de tarjetas */
     }
 
     * {
@@ -54,7 +44,7 @@
       object-fit: cover;
       border: 3px solid var(--accent);
       margin-bottom: 1.2rem;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 0 25px rgba(244,63,94,0.2);
     }
 
     header h1 {
@@ -115,7 +105,7 @@
 
     .btn:hover {
       transform: translateY(-3px);
-      box-shadow: 0 6px 16px rgba(225,29,72,0.3);
+      box-shadow: 0 6px 16px rgba(244,63,94,0.3);
     }
 
     .proyecto {
@@ -123,14 +113,14 @@
       border-radius: 1rem;
       padding: 1.5rem;
       margin-bottom: 1.5rem;
-      box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+      box-shadow: 0 2px 12px rgba(0,0,0,0.3);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
       animation: fadeIn 1.4s ease;
     }
 
     .proyecto:hover {
       transform: translateY(-4px);
-      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.4);
     }
 
     .proyecto h3 {
@@ -175,7 +165,7 @@
 <body>
 
   <header>
-    <img src="https://images.unsplash.com/photo-1603415526960-f7e0328d2119?auto=format&fit=crop&w=400&q=80" alt="Retrato minimalista de Jaime Gómez Mesa" />
+    <img src="https://images.unsplash.com/photo-1603415526960-f7e0328d2119?auto=format&fit=crop&w=400&q=80" alt="Retrato de Jaime Gómez Mesa" />
     <h1>Jaime Gómez Mesa</h1>
     <p>22 años · Estudiante de 2º de DAW (Desarrollo de Aplicaciones Web)</p>
   </header>
@@ -184,7 +174,7 @@
     <section class="intro">
       <h2>こんにちは — ¡Hola!</h2>
       <p>Soy Jaime Gómez Mesa, estudiante del segundo año del Grado Superior en Desarrollo de Aplicaciones Web.  
-         Este sitio está dedicado a mis actividades y proyectos de **DIWEB (Diseño de Interfaces Web)**.</p>
+         Esta página está dedicada a mis actividades y proyectos de **DIWEB (Diseño de Interfaces Web)**.</p>
       <a href="#proyectos" class="btn">Ver actividades</a>
     </section>
 
@@ -216,4 +206,3 @@
   </footer>
 </body>
 </html>
-
