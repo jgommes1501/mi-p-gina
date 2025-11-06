@@ -1,0 +1,12 @@
+/* 
+   Ventaja: El uso de un archivo CSS externo permite mantener el diseño separado del contenido.
+   Esto hace el código más limpio, fácil de mantener y reutilizable en múltiples páginas web.
+*/
+
+h1 {
+    color: green;
+}
+
+p {
+    color: red;
+}
