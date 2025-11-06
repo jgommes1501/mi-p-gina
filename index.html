@@ -1,1 +1,137 @@
-<h1>Github page</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio | Tu Nombre</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-primario: #2563eb;
+      --color-texto: #1e293b;
+      --color-fondo: #f8fafc;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: var(--color-fondo);
+      color: var(--color-texto);
+      line-height: 1.6;
+    }
+    header {
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    header h1 {
+      font-size: 1.5rem;
+      color: var(--color-primario);
+    }
+    nav {
+      margin-top: 0.5rem;
+    }
+    nav a {
+      margin-right: 1rem;
+      text-decoration: none;
+      color: var(--color-texto);
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: var(--color-primario);
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: linear-gradient(to right, #2563eb, #3b82f6);
+      color: white;
+      border-radius: 1rem;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.1rem;
+    }
+    .proyecto {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 0.75rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      margin-bottom: 1.5rem;
+    }
+    .proyecto h3 {
+      color: var(--color-primario);
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: white;
+      font-size: 0.9rem;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tu Nombre</h1>
+    <nav>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Hola, soy <strong>Tu Nombre</strong></h2>
+      <p>Desarrollador web apasionado por crear experiencias digitales simples y efectivas.</p>
+    </section>
+
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Soy un desarrollador con experiencia en HTML, CSS, JavaScript y frameworks modernos. Me gusta trabajar en proyectos innovadores y enfocados en la experiencia de usuario.</p>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="proyecto">
+        <h3>🌐 Proyecto 1</h3>
+        <p>Descripción breve del proyecto. <a href="#">Ver más →</a></p>
+      </div>
+      <div class="proyecto">
+        <h3>💻 Proyecto 2</h3>
+        <p>Descripción breve del proyecto. <a href="#">Ver más →</a></p>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>📧 <a href="mailto:tucorreo@example.com">tucorreo@example.com</a></p>
+      <p>🔗 <a href="https://github.com/tu-usuario" target="_blank">github.com/tu-usuario</a></p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Tu Nombre · Construido con ❤️ y GitHub Pages
+  </footer>
+</body>
+</html>
