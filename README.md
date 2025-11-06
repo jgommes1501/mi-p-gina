@@ -19,15 +19,15 @@ Este sitio web está diseñado para recopilar y mostrar todas mis **actividades 
 
 Todas las actividades del Tema 2 están disponibles directamente desde el portafolio:
 
-| Nº | Título | Enlace |
-|----|---------|--------|
-| 2.2 | [Ver actividad](tema-2/2.2/Index.html) |
-| 2.3 | [Ver actividad](tema-2/2.3/Index.html) |
-| 2.4 | [Ver actividad](tema-2/2.4/Index.html) |
-| 2.5 | [Ver actividad](tema-2/2.5/Index.html) |
-| 2.6 | [Ver actividad](tema-2/2.6/Index.html) |
-| 2.7 | | [Ver actividad](tema-2/2.7/Index.html) |
-| 2.8 | | [Ver actividad](tema-2/2.8/Index.html) |
+| Nº | Enlace |
+|----|--------|
+| 2.2 |[Ver actividad](tema-2/2.2/Index.html) |
+| 2.3 |[Ver actividad](tema-2/2.3/Index.html) |
+| 2.4 |[Ver actividad](tema-2/2.4/Index.html) |
+| 2.5 |[Ver actividad](tema-2/2.5/Index.html) |
+| 2.6 |[Ver actividad](tema-2/2.6/Index.html) |
+| 2.7 |[Ver actividad](tema-2/2.7/Index.html) |
+| 2.8 |[Ver actividad](tema-2/2.8/Index.html) |
 
 ---
 
