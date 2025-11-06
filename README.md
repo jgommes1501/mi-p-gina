@@ -11,7 +11,7 @@ Este sitio web está diseñado para recopilar y mostrar todas mis **actividades 
 - 🎓 **Estudiante:** 2º curso de DAW  
 - 💻 **Centro:** Grado Superior de Desarrollo de Aplicaciones Web  
 - 🗾 **Intereses:** diseño web, front-end, estética minimalista y cultura japonesa  
-- 🌐 **GitHub Pages:** [jgommes1501.github.io/mi-p-gina](https://jgommes1501.github.io/mi-p-pgina)  https://jgommes1501.github.io/mi-p-gina/
+- 🌐 **GitHub Pages:** [jgommes1501](https://jgommes1501.github.io/mi-p-pgina)
 
 ---
 
