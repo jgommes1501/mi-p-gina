@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 11: Estilos en función de la jerarquía</title>
+    <link rel="stylesheet" href="styles.css">
+<!-- 
+    1. ¿Qué color se aplica finalmente al encabezado <h1>?
+            Naranja, la regla ganadora es el estilo en línea (style="color: orange;"), porque tiene mayor prioridad que las reglas en el archivo CSS (aunque la hoja tenga clases, IDs o elementos).
+
+    2. ¿Cuál es el color del párrafo con el ID parrafo?
+            Rojo, prevalece la regla del ID (#parrafo { color: red; }) sobre la regla general de <p> al final del CSS, ya que los selectores por ID tienen mayor especificidad.
+            
+    3. ¿Qué color tiene el párrafo con la clase texto dentro del div contenedor?
+            Morado, gana la regla div .texto { color: purple !important; } porque el modificador !important tiene prioridad máxima sobre cualquier otra regla, incluso las de ID o las que aparecen después en el CSS.
+ -->
+</head>
+<body>
+    <h1 class="titulo" style="color: orange;">Título Principal</h1>
+    <p id="parrafo">Este es un párrafo de ejemplo</p>
+    <div>
+        <p class="texto">Texto dentro de un div</p>
+    </div>
+</body>
+</html>
