@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio CSS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="parent">
+    <p class="default">Texto con estilo por defecto.</p>
+    <p class="inherit">Texto con <b>inherit</b>.</p>
+    <p class="initial">Texto con <b>initial</b>.</p>
+    <p class="unset">Texto con <b>unset</b>.</p>
+    <p class="revert">Texto con <b>revert</b>.</p>
+  </div>
+</body>
+</html>
+
+
+
+<!-- 
+    .inherit : Toma los valores heredados del elemento padre (.parent).
+    Por qué: inherit obliga explícitamente a la propiedad a tomar el valor del elemento padre,
+    independientemente de si la propiedad es heredable por defecto o no.
+
+    .initial : Restablece las propiedades a su valor inicial por defecto del navegador, no al del padre.
+    initial ignora herencias o estilos previos y aplica el valor definido por el estándar CSS para esa propiedad.
+
+    .unset : Comportamiento: Es un valor mixto que depende de si la propiedad es heredable o no:
+        Si la propiedad es heredable → actúa como inherit.
+        Si no es heredable → actúa como initial.
+    La diferencia se notaría solo en propiedades no heredables, como margin, donde unset devolvería el valor inicial en lugar de heredar.
+
+    .revert
+    revert revierte la propiedad al valor que tendría según las hojas de estilo del navegador o del usuario, ignorando las reglas definidas por el autor (tus estilos CSS).
+    A diferencia de initial, que usa el valor definido por la especificación CSS, revert usa el valor real del agente de usuario (navegador), como si tus estilos no existieran.
+ -->
