@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Herencia, Especificidad y Cascada</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header id="main-header">
+      <h1 class="title">Título Principal</h1>
+    </header>
+    <section>
+      <p class="highlight">Este es un párrafo destacado.</p>
+      <p>Este es un párrafo normal.</p>
+      <p id="override">Este es un párrafo que debe sobrescribir los estilos.</p>
+    </section>
+    <footer>
+      <p>Este es el pie de página.</p>
+    </footer>
+  </div>
+</body>
+</html>
+<!--
+Respuestas a las Preguntas:
+¿Qué sucede si cambias el orden de las reglas CSS?
+Si las reglas tienen la misma especificidad, se aplicará la última regla en el orden del archivo CSS, debido a la cascada. Por ejemplo, si cambio la posición del selector section p con otro selector de igual peso, el último tendrá prioridad.
+
+¿Cómo afecta la especificidad a los estilos aplicados en el párrafo #override?
+Los estilos definidos con un ID (#override) tienen más peso que los estilos aplicados mediante clases (.highlight) o selectores de tipo (p). Por eso, el color definido en #override gana incluso si hay un estilo general para p.
+
+¿Qué sucede si eliminas el !important de alguna regla?
+El valor de color: gray en el pie de página perderá su prioridad y volverá al valor heredado del cuerpo o cualquier otro estilo definido con mayor especificidad.
+
+¿Qué reglas son heredadas automáticamente y cuáles necesitas especificar explícitamente?
+Propiedades textuales como color y font-family son heredadas automáticamente. Sin embargo, otras como background-color, font-weight o margin no se heredan y deben especificarse explícitamente si son necesarias.
+-->
