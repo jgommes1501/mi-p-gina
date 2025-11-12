@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de background-attachment</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        section {
+            height: 80vh;
+            padding: 20px;
+            color: white;
+            font-size: 30px;
+        }
+
+        .scroll {
+            background-image: url('https://cdn.artphotolimited.com/images/60913d60bd40b85323893a87/1000x1000/shaquille-o-neal-und-kobe-bryant-stehen-eintraechtig-nebeneinander.jpg');
+            background-size: cover;
+            background-attachment: scroll;
+        }
+
+        .fixed {
+            background-image: url('https://www.basquetplus.com/sites/default/files/main/articles/PIPPEN%20JORDAN%20RODMAN.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .local {
+            background-image: url('https://www.mundodeportivo.com/files/og_thumbnail/uploads/2021/12/07/61aef564ec572.jpeg');
+            background-size: cover;
+            background-attachment: local;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="scroll">
+        <h1>Shaq y Kobe (Los Angeles Lakers)</h1>
+        <p>Shaquille O’Neal y Kobe Bryant formaron una de las duplas más dominantes de la NBA entre 1996 y 2004. Juntos llevaron a los Lakers a tres campeonatos consecutivos (2000-2002) gracias al poder interior de Shaq y el talento ofensivo de Kobe. Sin embargo, las tensiones personales y diferencias de ego llevaron a su separación en 2004, cuando Shaq fue traspasado a Miami.</p>
+    </section>
+
+    <section class="fixed">
+        <h1>Jordan, Pippen y Rodman (Chicago Bulls) </h1>
+        <p>Michael Jordan, Scottie Pippen y Dennis Rodman fueron el núcleo del segundo trienio campeón de los Bulls (1996-1998). Jordan aportaba la ofensiva y liderazgo, Pippen la defensa y versatilidad, y Rodman la intensidad y dominio en los rebotes. Su combinación de talento, disciplina y mentalidad competitiva convirtió a Chicago en una dinastía que marcó la historia del baloncesto.</p>
+    </section>
+
+    <section class="local">
+        <h1>LeBron y Wade (Miami Heat)</h1>
+        <p>LeBron James y Dwyane Wade unieron fuerzas en Miami Heat entre 2010 y 2014, formando junto a Chris Bosh el famoso “Big Three”. Con su combinación de poder, velocidad y juego colectivo, llevaron al equipo a cuatro finales consecutivas y ganaron dos títulos (2012 y 2013). Su amistad fuera de la cancha fortaleció una de las alianzas más carismáticas de la NBA moderna.</p>
+    </section>
+
+</body>
+</html>
