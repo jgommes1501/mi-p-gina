@@ -35,6 +35,8 @@ Todas las actividades del Tema 2 están disponibles directamente desde el portaf
 | 2.13 |[Ver actividad](tema-2/2.13/Index.html) |
 | 2.14 |[Ver actividad](tema-2/2.14/Index.html) |
 | 2.15 |[Ver actividad](tema-2/2.15/Index.html) |
+| 2.16 |[Ver actividad](tema-2/2.16/Index.html) |
+| 2.17 |[Ver actividad](tema-2/2.17/Index.html) |
 
 ---
 
