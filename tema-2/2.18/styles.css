@@ -1,0 +1,42 @@
+h1 {
+    font-family: serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.parrafo1 {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.parrafo2 {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+}
+
+.parrafo3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: lowercase;
+    line-height: 1.8;
+}
+/*
+1. ¿Qué diferencia notas en la legibilidad entre las fuentes serif y sans-serif?
+Las serif suelen sentirse más tradicionales y pueden mejorar la lectura en textos largos impresos,
+ mientras que las sans-serif son más limpias y legibles en pantallas.
+
+2. ¿Cómo afecta el tamaño de la fuenta y el interlineado a la comodidad de lectura?
+Un tamaño adecuado y un interlineado amplio hacen que el texto sea más cómodo de leer,
+ evitando que las líneas se vean demasiado juntas o pequeñas.
+
+3. ¿Cuál es tu combinación de propiedades favorita para títulos y párrafos?
+Para títulos, una fuente serif o sans-serif bold y en mayúsculas; para párrafos,
+ una sans-serif regular con buen interlineado (1.5–1.8) y tamaño entre 15–17px.
+*/
