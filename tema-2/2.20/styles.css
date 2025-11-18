@@ -1,0 +1,20 @@
+/* Estilos para la lista ordenada de tareas */
+ol.tareas {
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+    color: #003366;
+}
+
+/* Estilos para la lista no ordenada de materiales */
+ul.materiales {
+    list-style-type: square;
+    list-style-position: outside;
+    color: #2a7a1f;
+}
+
+/* Estilos para la lista personalizada de recursos */
+ul.recursos {
+    list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="%23FFD700" d="M8 0l2.5 5.1 5.5.8-4 3.9.9 5.5-4.9-2.6-4.9 2.6.9-5.5-4-3.9 5.5-.8z"/></svg>');
+    list-style-position: inside;
+    color: #444444;
+}
