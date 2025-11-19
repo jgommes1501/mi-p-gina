@@ -12,7 +12,5 @@
 }
 .seccion3 button {
     border: 4px double red;
-    padding: 10px 20px;
-    cursor: pointer;
     border-radius: 15px;
 }
