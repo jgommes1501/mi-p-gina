@@ -1,0 +1,8 @@
+.jai {
+    background-color: rgb(161, 159, 159);
+    width: 300px;
+    height: 300px;
+    border: 15px solid rgb(22, 184, 7);
+    padding: 50px;
+    margin: 20px;
+}
