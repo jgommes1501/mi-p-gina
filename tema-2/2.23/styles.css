@@ -1,0 +1,16 @@
+/* Primera Seccion */
+.seccion1 {
+    background-color: #d1af7b;
+    padding: 20px;
+}
+
+/* Segunda Seccion */
+.seccion2 {
+    padding: 10px 15px 20px 25px;
+    background-color: #7bd1c6;
+}
+
+/* Tercera Seccion */
+.seccion3 button {
+    padding: 30px 50px; /* 30px arriba/abajo, 50px lados */
+}
