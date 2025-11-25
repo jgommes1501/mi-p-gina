@@ -1,0 +1,14 @@
+.estilo-contorno {
+outline: 3px dashed blue;
+}
+
+
+.ancho-contorno  {
+outline: 5px solid red;
+}
+
+
+.desplazamiento-contorno {
+outline: 3px dotted green;
+outline-offset: 10px;
+}
