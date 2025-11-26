@@ -1,0 +1,25 @@
+table {
+    border-collapse:separate ;
+    border-spacing: 10px;
+    empty-cells: hide;
+    table-layout: fixed;
+    width: 50%;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+table, th, td {
+    border: 2px solid #444;
+
+}
+
+th {
+    background-color: #cfe2f3;
+
+}
+
+tbody tr {
+    background-color: #f2f2f2;
+}
