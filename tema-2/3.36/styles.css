@@ -1,0 +1,49 @@
+.contenedor-principal {
+padding: 20px;
+}
+
+
+.bloque-centrado {
+width: 50%;
+margin: auto;
+text-align: center;
+}
+
+
+.texto-centrado {
+text-align: center;
+margin-top: 20px;
+}
+
+
+.imagen-centrada {
+display: block;
+margin: 20px auto;
+}
+
+
+.alineacion-izq {
+text-align: left;
+margin-top: 20px;
+}
+
+
+.alineacion-der {
+text-align: right;
+margin-top: 10px;
+}
+
+
+.alineacion-flex {
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+}
+
+
+.centrado-vertical {
+height: 120px;
+line-height: 120px;
+text-align: center;
+margin-top: 20px;
+}

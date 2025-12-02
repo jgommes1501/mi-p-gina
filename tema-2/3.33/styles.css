@@ -1,0 +1,29 @@
+.cuadro {
+width: 150px;
+height: 150px;
+position: absolute;
+}
+
+
+.uno {
+background: red;
+top: 20px;
+left: 20px;
+z-index: 1;
+}
+
+
+.dos {
+background: blue;
+top: 60px;
+left: 60px;
+z-index: 2;
+}
+
+
+.tres {
+background: green;
+top: 100px;
+left: 100px;
+z-index: 3;
+}
