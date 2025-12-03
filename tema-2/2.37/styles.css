@@ -1,0 +1,17 @@
+.contenedor {
+width: 300px;
+height: 200px;
+border: 2px solid #333;
+padding: 10px;
+overflow: auto;
+}
+.overflow-x {
+overflow-x: scroll;
+overflow-y: hidden;
+}
+
+
+.overflow-y {
+overflow-y: scroll;
+overflow-x: hidden;
+}
