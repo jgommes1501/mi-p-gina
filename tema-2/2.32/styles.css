@@ -1,0 +1,50 @@
+.container {
+    position: relative;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container div {
+    padding: 20px;
+    margin: 10px 0;
+    color: white;
+}
+
+/* Static */
+.static {
+    position: static;
+    background-color: #3498db;
+}
+
+/* Relative */
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: #2ecc71;
+}
+
+/* Absolute */
+.absolute {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #e74c3c;
+}
+
+/* Fixed */
+.fixed {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: #f39c12;
+    padding: 15px;
+}
+
+/* Sticky */
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: #9b59b6;
+}
