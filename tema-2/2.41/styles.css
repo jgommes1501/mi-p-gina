@@ -1,0 +1,20 @@
+#home {
+  width: 44px;
+  height: 42px;
+  background-image: url('https://miro.medium.com/1*F5GLo902QMVqVeXGq5JoFg.png');
+  background-position: -91px 0px; /* Top-left corner of the sprite */
+}
+
+#prev {
+  width: 430px;
+  height: 440px;
+  background-image: url('https://miro.medium.com/1*F5GLo902QMVqVeXGq5JoFg.png');
+  background-position: -47px 0; /* 47px to the left of the sprite's top-left */
+}
+
+#next {
+  width: 43px;
+  height: 44px;
+  background-image: url('https://miro.medium.com/1*F5GLo902QMVqVeXGq5JoFg.png');
+  background-position: -91px 0; /* 91px to the left of the sprite's top-left */
+}
