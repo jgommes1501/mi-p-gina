@@ -64,6 +64,7 @@ Todas las actividades del Tema 2 están disponibles directamente desde el portaf
 | 2.42 |[Ver actividad](tema-2/2.42) |
 | 2.43 |[Ver actividad](tema-2/2.43) |
 | 2.44 |[Ver actividad](tema-2/2.44) |
+| 2.44 |[Ver actividad](tema-2/2.45) |
 
 ---
 
