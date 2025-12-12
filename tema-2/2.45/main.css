@@ -1,0 +1,84 @@
+body, h1, h2, p {
+    color: #333;
+}
+
+/* Header Styles */
+.main-header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.site-title {
+    font-size: 2rem;
+}
+
+.nav-primary {
+    margin-top: 10px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+.main-content {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 400px;
+    text-align: center;
+}
+
+.card-title {
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #6C757D;
+    color: white;
+    margin-left: 10px;
+}
+
+/* Footer Styles */
+.main-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
