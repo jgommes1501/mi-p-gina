@@ -21,7 +21,8 @@ Todas las actividades del Tema 2 están disponibles directamente desde el portaf
 
 | Nº | Enlace |
 |----|--------|
-| 2.2 |[Ver actividad](tema-2/2.2) |
+| 2.2 |[Ver actividad](tema-2/2.2) || 2.2 |[Ver actividad](tema-2/2.2) |
+
 | 2.3 |[Ver actividad](tema-2/2.3) |
 | 2.4 |[Ver actividad](tema-2/2.4) |
 | 2.5 |[Ver actividad](tema-2/2.5) |
