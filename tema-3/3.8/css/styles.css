@@ -1,0 +1,15 @@
+.card {
+  color: #333;
+  width: 300px;
+}
+.card .card-title {
+  margin-bottom: 20px;
+}
+.card .card-price {
+  font-size: 32px;
+  color: #007bff;
+}
+.card .card-btn {
+  background: #007bff;
+  padding: 20px;
+}

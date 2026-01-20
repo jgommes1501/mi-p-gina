@@ -1,0 +1,44 @@
+$colores: (
+  primario: #3498db,
+  secundario: #2ecc71,
+  alerta: #e74c3c
+);
+
+$tipos-fuente: ("Arial", "Verdana", "Helvetica");
+
+.titulo::before {
+  content: to-upper-case(unquote("Mi título"));
+}
+
+.caja {
+  width: percentage(ceil(480 / 1200));
+}
+
+.fuentes {
+  font-family: nth($tipos-fuente, 2);
+}
+
+@debug length($tipos-fuente);
+
+.boton-primario {
+  background-color: map-get($colores, primario);
+}
+
+.boton-primario::after {
+  content: if(map-has-key($colores, alerta), "alerta existe", "alerta no existe");
+}
+
+#{selector-append(".boton1", ":hover")} {
+  background-color: #2ecc71;
+}
+
+.info {
+}
+
+@debug type-of($colores);
+@debug type-of($tipos-fuente);
+
+.alerta {
+  background-color: lighten(map-get($colores, alerta), 15%);
+  opacity: 0.9;
+}

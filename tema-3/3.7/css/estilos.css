@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* Operadores aritméticos */
+.caja {
+  padding: 20px;
+  margin-bottom: 15px;
+  width: 30%;
+  height: 60px;
+}
+
+/* Operadores de comparación */
+.texto {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* Operadores lógicos */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Operadores con strings (interpolación) */
+.margen-top {
+  margin-top: 20px;
+}/*# sourceMappingURL=estilos.css.map */

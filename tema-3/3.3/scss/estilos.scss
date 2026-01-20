@@ -1,0 +1,19 @@
+@mixin nombre ($background-color, $color, $borde, $tamano-text) {
+  background-color: $background-color;
+  color: $color;
+  border: $borde;
+  text-align: $tamano-text;
+}
+
+body {
+  @include nombre(blue, yellow, 2px red solid, 12px)
+
+}
+
+@while $i <= $num {
+  .caja-#{$i} {
+    width: 100px * i;
+  }
+  $i : $i + 1;
+}
+

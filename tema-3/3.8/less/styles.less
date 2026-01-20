@@ -1,0 +1,32 @@
+@primary-color: #007bff;
+
+@text-color: #333;
+
+@spacing: 20px;
+
+@base: 16px;
+
+.flex-center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  color: @text-color;
+  width: 300px;
+
+  .card-title {
+    margin-bottom: @spacing;
+  }
+
+  .card-price {
+    font-size: @base * 2; 
+    color: @primary-color;
+  }
+
+  .card-btn {
+    background: @primary-color;
+    padding: @spacing;
+  }
+}
