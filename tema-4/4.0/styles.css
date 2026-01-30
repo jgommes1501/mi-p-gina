@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* 1. Modelo de caja */
+.caja {
+    width: 150px;
+    height: 100px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+}
+/*
+¿Respeta el ancho y alto?
+¿Se colocan en línea o en columna?
+
+inline: no respeta ancho ni alto y se colocan en línea
+
+inline-block: respeta ancho y alto y se colocan en línea
+
+block: respeta ancho y alto y se colocan en columna 
+*/
+
+/* 4. Posicionamiento */
+.contenedor {
+    position: relative;
+}
+
+.especial {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: red;
+}
+/*
+Observa desde qué elemento se posiciona y por qué:
+Se posiciona respecto al .contenedor porque es el
+ ancestro más cercano con position: relative.
+*/
+
+
+/* 5. Hover enlaces */
+nav a:hover {
+    color: blue;
+}
+
+/* 6. Opcionales */
+.caja {
+    text-align: center;
+    line-height: 100px;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+nav a {
+    color: green;
+}
+
