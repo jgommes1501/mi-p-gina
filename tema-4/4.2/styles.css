@@ -1,0 +1,5 @@
+.menu {
+    display: flex;              /* enlaces en línea y menú horizontal */
+    justify-content: space-around; /* separación uniforme */
+    align-items: center;        /* centrado vertical */
+}

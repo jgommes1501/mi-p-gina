@@ -1,0 +1,11 @@
+.galeria {
+  display: grid; /* Activamos Grid */
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas del mismo tamaño */
+  gap: 10px; /* Espacio uniforme entre imágenes */
+}
+
+.galeria img {
+  width: 100%; /* Cada imagen ocupa todo el ancho de su celda */
+  height: auto; /* Mantener proporción de la imagen */
+  display: block; /* Evita espacio extra debajo de la imagen */
+}

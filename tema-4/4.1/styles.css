@@ -1,0 +1,13 @@
+.contenedor {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;/* centra horizontalmente */
+    align-items: center;     /* centra verticalmente */
+}
+
+.caja {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+}

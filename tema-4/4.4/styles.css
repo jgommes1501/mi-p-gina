@@ -1,0 +1,7 @@
+.footer {
+    display: flex;                 /* Elementos en una sola fila */
+    justify-content: space-between; /* Reparte el espacio automáticamente */
+    align-items: center;            /* Centrado vertical */
+    width: 100%;                    /* Ocupa todo el ancho */
+    padding: 1rem;
+}

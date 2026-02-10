@@ -1,0 +1,16 @@
+.layout {
+    display: grid;
+    grid-template-columns: 250px 1fr;  /* Sidebar fija + Main flexible */
+    grid-template-rows: auto 1fr auto; /* Header, contenido, footer */
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+    gap: 16px; /* Separación uniforme entre áreas */
+    min-height: 100vh;
+}
+
+.header { grid-area: header; }
+.sidebar { grid-area: sidebar; }
+.main   { grid-area: main; }
+.footer { grid-area: footer; }

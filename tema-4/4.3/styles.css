@@ -1,0 +1,12 @@
+.cards {
+    display: flex;                 /* Cards en una fila */
+    justify-content: space-between; /* Espacio uniforme entre ellas */
+    width: 100%;                    /* Se adapta al ancho disponible */
+}
+
+.card {
+    width: 30%;                     /* Todas del mismo tamaño */
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+}

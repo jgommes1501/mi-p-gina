@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between; /* Logo izquierda, menú derecha */
+    align-items: center;            /* Alineación vertical */
+    padding: 20px;
+}
+.menu {
+    display: flex;
+    gap: 20px;                      /* Separación uniforme entre enlaces */
+}
+.main {
+    display: flex;                  /* Sidebar y contenido en una fila */
+}
+.sidebar {
+    width: 200px;                   /* Ancho fijo */
+}
+.contenido {
+    flex-grow: 1;                   /* Ocupa el espacio restante */
+}
+/*CARDS*/
+.cards {
+    display: flex;                  /* Cards en una sola fila */
+    gap: 20px;                      /* Espacio uniforme */
+}
+.card {
+    flex: 1;                        /* Todas con el mismo tamaño */
+}
+/*FOOTER*/
+.footer {
+    display: flex;                  /* Elementos en una fila */
+    justify-content: space-between; /* Espacio repartido automáticamente */
+    align-items: center;            /* Alineación vertical */
+}
