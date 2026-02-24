@@ -1,7 +1,7 @@
 # 🌸 Portafolio DIWEB — Jaime Gómez Mesa
 
 ¡Bienvenido a mi portafolio personal!  
-Soy **Jaime Gómez Mesa**, tengo **22 años** y actualmente estudio el **segundo año del Grado Superior de Desarrollo de Aplicaciones Web (DAW)**.  
+Soy **Jaime Gómez Mesa**, tengo **23 años** y actualmente estudio el **segundo año del Grado Superior de Desarrollo de Aplicaciones Web (DAW)**.  
 Este sitio web está diseñado para recopilar y mostrar todas mis **actividades de la asignatura DIWEB (Diseño de Interfaces Web)**.
 
 ---
