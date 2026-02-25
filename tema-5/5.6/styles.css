@@ -1,0 +1,44 @@
+/* Cabecera con imagen de fondo */
+header {
+  height: 50vh;
+  background-image: url("img/fondo1.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Galería principal */
+.galeria {
+  display: flex;
+}
+
+.galeria img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.galeria img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+/* Imagen adaptativa en contenido */
+section img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  text-align: center;
+}
+
+/* Pie de página con imagen de fondo */
+footer a {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  background-image: url("img/fondo2.jpg");
+  background-size: cover;
+}
