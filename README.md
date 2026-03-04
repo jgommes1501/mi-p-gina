@@ -1,109 +1,123 @@
 # 🌸 Portafolio DIWEB — Jaime Gómez Mesa
 
-¡Bienvenido a mi portafolio personal!  
-Soy **Jaime Gómez Mesa**, tengo **23 años** y actualmente estudio el **segundo año del Grado Superior de Desarrollo de Aplicaciones Web (DAW)**.  
-Este sitio web está diseñado para recopilar y mostrar todas mis **actividades de la asignatura DIWEB (Diseño de Interfaces Web)**.
+Portafolio personal para recopilar actividades de **DIWEB (Diseño de Interfaces Web)** del ciclo de **DAW**.
 
----
+## 👤 Sobre mí
 
-## 🧠 Sobre mí
+- 🎓 Estudiante de 2º de DAW
+- 🗾 Intereses: diseño web, front-end y estética japonesa
+- 🌐 GitHub Pages: [jgommes1501.github.io/mi-p-gina](https://jgommes1501.github.io/mi-p-gina/)
 
-- 🎓 **Estudiante:** 2º curso de DAW  
-- 💻 **Centro:** Grado Superior de Desarrollo de Aplicaciones Web  
-- 🗾 **Intereses:** diseño web, front-end, estética minimalista y cultura japonesa  
-- 🌐 **GitHub Pages:** [jgommes1501](https://jgommes1501.github.io/mi-p-gina/)
+## ✨ Novedad en la portada
 
+En [index.html](index.html) ahora hay un **selector de temas (2 al 6)**.
 
-## 💡 Tecnologías utilizadas
+- Al pulsar un tema, se muestran solo sus actividades.
+- Cada tarjeta redirige a su actividad correspondiente.
+- Si una actividad no tiene `index.html`, aparece como pendiente.
 
-- **HTML5** — estructura del sitio  
-- **CSS3** — diseño, animaciones y modo oscuro  
-- **GitHub Pages** — despliegue del portafolio  
-- **Tipografías:** [Inter](https://fonts.google.com/specimen/Inter) y [Noto Sans JP](https://fonts.google.com/noto/specimen/Noto+Sans+JP)
+## 🧰 Tecnologías
 
----
+- HTML5
+- CSS3
+- JavaScript (vanilla)
+- GitHub Pages
 
-## 🎨 Diseño
+## 📚 Actividades por tema
 
-Este portafolio utiliza un estilo **minimalista y moderno inspirado en la estética japonesa**, con:
+### Tema 2
 
-- Paleta oscura por defecto (`modo oscuro`)  
-- Acentos en **rojo carmesí japonés (`#f43f5e`)**  
-- Animaciones suaves en transiciones y elementos  
-- Diseño responsive adaptable a cualquier dispositivo  
+- [2.2](tema-2/2.2/linea.html)
+- [2.3](tema-2/2.3/Index.html)
+- [2.4](tema-2/2.4/Index.html)
+- [2.5](tema-2/2.5/Index.html)
+- [2.6](tema-2/2.6/Index.html)
+- [2.7](tema-2/2.7/Index.html)
+- [2.8](tema-2/2.8/index.html)
+- [2.9](tema-2/2.9/Index.html)
+- [2.10](tema-2/2.10/Index.html)
+- [2.11](tema-2/2.11/Index.html)
+- [2.12](tema-2/2.12/Index.html)
+- [2.13](tema-2/2.13/Index.html)
+- [2.14](tema-2/2.14/Index.html)
+- [2.15](tema-2/2.15/Index.html)
+- [2.16](tema-2/2.16/Index.html)
+- [2.17](tema-2/2.17/Index.html)
+- [2.18](tema-2/2.18/Index.html)
+- [2.19](tema-2/2.19/Index.html)
+- [2.20](tema-2/2.20/Index.html)
+- [2.21](tema-2/2.21/Index.html)
+- [2.22](tema-2/2.22/Index.html)
+- [2.23](tema-2/2.23/Index.html)
+- [2.24](tema-2/2.24/Index.html)
+- [2.25](tema-2/2.25/Index.html)
+- [2.26](tema-2/2.26/Index.html)
+- [2.27](tema-2/2.27/Index.html)
+- [2.28](tema-2/2.28/Index.html)
+- [2.29](tema-2/2.29/Index.html)
+- [2.30](tema-2/2.30/Index.html)
+- [2.32](tema-2/2.32/Index.html)
+- [2.33](tema-2/2.33/Index.html)
+- [2.34](tema-2/2.34/Index.html)
+- [2.35](tema-2/2.35/Index.html)
+- [2.36](tema-2/2.36/Index.html)
+- [2.37](tema-2/2.37/Index.html)
+- [2.38](tema-2/2.38/Index.html)
+- [2.39](tema-2/2.39/Index.html)
+- [2.40](tema-2/2.40/Index.html)
+- [2.41](tema-2/2.41/Index.html)
+- [2.42](tema-2/2.42/Index.html)
+- [2.43](tema-2/2.43/Index.html)
+- [2.44](tema-2/2.44/Index.html)
+- [2.45](tema-2/2.45/Index.html)
+- [3.32](tema-2/3.32/Index.html)
+- [3.33](tema-2/3.33/Index.html)
+- [3.34](tema-2/3.34/Index.html)
+- [3.35](tema-2/3.35/Index.html)
+- [3.36](tema-2/3.36/Index.html)
 
----
+### Tema 3
 
-## 🚀 Despliegue
+- [3.1](tema-3/3.1/index.html)
+- [3.2](tema-3/3.2/index.html)
+- [3.3](tema-3/3.3/index.html)
+- [3.4](tema-3/3.4/index.html)
+- [3.5](tema-3/3.5/index.html)
+- [3.6](tema-3/3.6/index.html)
+- [3.7](tema-3/3.7/index.html)
+- [3.8](tema-3/3.8/index.html)
 
-Este sitio está publicado mediante **GitHub Pages**.  
-Puedes acceder a la versión en línea desde:  
-🔗 [Mi GitHug Pages: ](https://jgommes1501.github.io/mi-p-gina/)
+### Tema 4
 
----
+- [4.0](tema-4/4.0/index.html)
+- [4.1](tema-4/4.1/index.html)
+- [4.2](tema-4/4.2/index.html)
+- [4.3](tema-4/4.3/index.html)
+- [4.4](tema-4/4.4/index.html)
+- [4.5](tema-4/4.5/index.html)
+- [4.6](tema-4/4.6/index.html)
+- [4.7](tema-4/4.7/index.html)
+- [4.8](tema-4/4.8/index.html)
+
+### Tema 5
+
+- [5.3](tema-5/5.3/index.html)
+- 5.4 (pendiente: sin `index.html`)
+- 5.5 (pendiente: sin `index.html`)
+- [5.6](tema-5/5.6/index.html)
+
+### Tema 6
+
+- [6.1](tema-6/6.1/index.html)
+- [6.2](tema-6/6.2/index.html)
+- [6.3](tema-6/6.3/index.html)
 
 ## 📫 Contacto
 
-- 📧 **Correo:** [jgommes1501@g.educaand.es](mailto:jgommes1501@g.educaand.es)  
-- 💻 **GitHub:** [github.com/jgommes1501](https://github.com/jgommes1501)
+- 📧 [jgommes1501@g.educaand.es](mailto:jgommes1501@g.educaand.es)
+- 💻 [github.com/jgommes1501](https://github.com/jgommes1501)
 
 ---
 
----
-
-## 🧩 Actividades del Tema 2
-
-Todas las actividades del Tema 2 están disponibles directamente desde el portafolio:
-
-| Nº | Enlace |
-|----|--------|
-| 2.2 |[Ver actividad](tema-2/2.2) | 
-| 2.3 |[Ver actividad](tema-2/2.3) |
-| 2.4 |[Ver actividad](tema-2/2.4) |
-| 2.5 |[Ver actividad](tema-2/2.5) |
-| 2.6 |[Ver actividad](tema-2/2.6) |
-| 2.7 |[Ver actividad](tema-2/2.7) |
-| 2.8 |[Ver actividad](tema-2/2.8) |
-| 2.9 |[Ver actividad](tema-2/2.9) |
-| 2.10 |[Ver actividad](tema-2/2.10) |
-| 2.11 |[Ver actividad](tema-2/2.11) |
-| 2.12 |[Ver actividad](tema-2/2.12) |
-| 2.13 |[Ver actividad](tema-2/2.13) |
-| 2.14 |[Ver actividad](tema-2/2.14) |
-| 2.15 |[Ver actividad](tema-2/2.15) |
-| 2.16 |[Ver actividad](tema-2/2.16) |
-| 2.17 |[Ver actividad](tema-2/2.17) |
-| 2.18 |[Ver actividad](tema-2/2.18) |
-| 2.19 |[Ver actividad](tema-2/2.19) |
-| 2.20 |[Ver actividad](tema-2/2.20) |
-| 2.21 |[Ver actividad](tema-2/2.21) |
-| 2.22 |[Ver actividad](tema-2/2.22) |
-| 2.23 |[Ver actividad](tema-2/2.23) |
-| 2.24 |[Ver actividad](tema-2/2.24) |
-| 2.25 |[Ver actividad](tema-2/2.25) |
-| 2.26 |[Ver actividad](tema-2/2.26) |
-| 2.27 |[Ver actividad](tema-2/2.27) |
-| 2.28 |[Ver actividad](tema-2/2.28) |
-| 2.29 |[Ver actividad](tema-2/2.29) |
-| 2.30 |[Ver actividad](tema-2/2.30) |
-| 2.31 |[Ver actividad](tema-2/2.31) |
-| 2.32 |[Ver actividad](tema-2/2.32) |
-| 2.33 |[Ver actividad](tema-2/2.33) |
-| 2.34 |[Ver actividad](tema-2/2.34) |
-| 2.35 |[Ver actividad](tema-2/2.35) |
-| 2.36 |[Ver actividad](tema-2/2.36) |
-| 2.37 |[Ver actividad](tema-2/2.37) |
-| 2.38 |[Ver actividad](tema-2/2.38) |
-| 2.39 |[Ver actividad](tema-2/2.39) |
-| 2.40 |[Ver actividad](tema-2/2.40) |
-| 2.41 |[Ver actividad](tema-2/2.41) |
-| 2.42 |[Ver actividad](tema-2/2.42) |
-| 2.43 |[Ver actividad](tema-2/2.43) |
-| 2.44 |[Ver actividad](tema-2/2.44) |
-| 2.44 |[Ver actividad](tema-2/2.45) |
-
----
-
-
-### © 2025 — Jaime Gómez Mesa  
+© 2026 — Jaime Gómez Mesa  
 _“日本の美 — La belleza está en los detalles.”_

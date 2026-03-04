@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+.video-container {
+    width: 640px;          /* Resolución SD */
+    margin: 20px auto;
+    border: 2px solid black; /* Marco negro de 2px */
+    padding: 5px;
+    background-color: #000;
+}
+
+video {
+    display: block;
+}
+
+.enlaces {
+    margin-top: 15px;
+}
+
+.enlaces a {
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.enlaces a:hover {
+    background-color: #555;
+}

@@ -1,0 +1,68 @@
+/* ESTILOS GENERALES */
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+
+section{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-bottom:1px solid #ccc;
+}
+
+/* EJERCICIO 1 - ANIMATION */
+.ejercicio1 h1{
+    position:relative;
+    width:100%;
+}
+
+.ejercicio1 h1 span{
+    position:absolute;
+    animation: mover 4s linear 1s 2 alternate forwards;
+}
+
+@keyframes mover{
+    0%{
+        left:0;
+        color:red;
+        transform:scale(1);
+    }
+    50%{
+        color:blue;
+        transform:scale(2);
+    }
+    100%{
+        left:90vw;
+        color:green;
+        transform:scale(3);
+    }
+}
+
+/* EJERCICIO 2 - TRANSITION */
+.ejercicio2 a{
+    display:inline-block;
+    font-size:2rem;
+    text-decoration:none;
+    color:black;
+    transition: all 0.5s linear;
+}
+
+.ejercicio2 a:hover{
+    color:red;
+    transform: scale(2) rotate(180deg);
+}
+
+/* EJERCICIO 3 - STEPS() */
+.circulo{
+    width:150px;
+    height:150px;
+    background-color:orange;
+    border-radius:50%;
+    transition: background-color 2s steps(4);
+}
+
+.circulo:hover{
+    background-color:purple;
+}

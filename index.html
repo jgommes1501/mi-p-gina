@@ -4,17 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jaime Gómez Mesa | Portafolio DAW</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="assets/jm.jpg" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
 
   <style>
     :root {
-      --bg: #0f172a;        /* Fondo general */
-      --text: #f1f5f9;      /* Texto principal */
-      --accent: #f43f5e;    /* Rojo japonés */
-      --muted: #94a3b8;     /* Texto secundario */
-      --card: #1e293b;      /* Fondo de tarjetas */
+      --bg: #0f172a;
+      --text: #f1f5f9;
+      --accent: #f43f5e;
+      --muted: #94a3b8;
+      --card: #1e293b;
     }
 
     * {
@@ -44,7 +44,7 @@
       object-fit: cover;
       border: 3px solid var(--accent);
       margin-bottom: 1.2rem;
-      box-shadow: 0 0 25px rgba(244,63,94,0.2);
+      box-shadow: 0 0 25px rgba(244, 63, 94, 0.2);
     }
 
     header h1 {
@@ -60,18 +60,18 @@
     }
 
     main {
-      max-width: 850px;
+      max-width: 920px;
       margin: 0 auto;
-      padding: 2rem 1.5rem;
+      padding: 1rem 1.5rem 2rem;
     }
 
     section {
-      margin-bottom: 4rem;
+      margin-bottom: 3rem;
     }
 
     h2 {
       font-size: 1.5rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
       font-weight: 600;
       border-left: 4px solid var(--accent);
       padding-left: 0.5rem;
@@ -79,77 +79,83 @@
 
     .intro {
       text-align: center;
-      margin-bottom: 4rem;
       animation: slideUp 1.3s ease;
     }
 
     .intro p {
       color: var(--muted);
-      font-size: 1.1rem;
-      max-width: 600px;
-      margin: 0 auto;
-      margin-top: 1rem;
+      font-size: 1.05rem;
+      max-width: 680px;
+      margin: 1rem auto 0;
+      line-height: 1.55;
     }
 
-    .btn {
-      display: inline-block;
-      background: var(--accent);
-      color: white;
-      padding: 0.8rem 1.6rem;
+    .selector {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin-top: 1.2rem;
+    }
+
+    .tema-btn {
+      border: 1px solid transparent;
+      background: var(--card);
+      color: var(--text);
+      padding: 0.55rem 0.95rem;
       border-radius: 999px;
-      text-decoration: none;
-      margin-top: 1.8rem;
-      font-weight: 500;
-      transition: transform 0.2s, box-shadow 0.2s;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: 0.2s ease;
     }
 
-    .btn:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 6px 16px rgba(244,63,94,0.3);
+    .tema-btn:hover {
+      transform: translateY(-2px);
+      border-color: var(--accent);
+    }
+
+    .tema-btn.activo {
+      background: var(--accent);
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .tema-info {
+      margin-top: 0.85rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .grid-actividades {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 0.9rem;
+      margin-top: 1.2rem;
     }
 
     .proyecto {
       background: var(--card);
       border-radius: 1rem;
-      padding: 1.5rem;
-      margin-bottom: 1.5rem;
-      box-shadow: 0 2px 12px rgba(0,0,0,0.3);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      animation: fadeIn 1.4s ease;
+      padding: 1rem;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      animation: fadeIn 0.8s ease;
     }
 
     .proyecto:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
     }
 
     .proyecto h3 {
       color: var(--accent);
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.45rem;
+      font-size: 1rem;
     }
 
     .proyecto p {
       color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    footer {
-      text-align: center;
-      padding: 2rem 1rem;
-      color: var(--muted);
-      font-size: 0.9rem;
-      animation: fadeIn 2s ease;
-    }
-
-    /* Animaciones */
-    @keyframes fadeIn {
-      from {opacity: 0; transform: translateY(20px);}
-      to {opacity: 1; transform: translateY(0);}
-    }
-
-    @keyframes slideUp {
-      from {opacity: 0; transform: translateY(40px);}
-      to {opacity: 1; transform: translateY(0);}
+      font-size: 0.92rem;
+      line-height: 1.45;
     }
 
     a {
@@ -159,6 +165,24 @@
 
     a:hover {
       text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+      animation: fadeIn 1.6s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(28px); }
+      to { opacity: 1; transform: translateY(0); }
     }
   </style>
 </head>
@@ -173,333 +197,125 @@
   <main>
     <section class="intro">
       <h2>こんにちは — ¡Hola!</h2>
-      <p>Soy Jaime Gómez Mesa, estudiante del segundo año del Grado Superior en Desarrollo de Aplicaciones Web.  
-         Esta página está dedicada a mis actividades y proyectos de DIWEB (Diseño de Interfaces Web).</p>
-      <a href="#proyectos" class="btn">Ver actividades</a>
+      <p>
+        Esta portada ahora te deja elegir el tema (2 al 6) y, según el tema seleccionado,
+        abrir cada actividad con su enlace directo.
+      </p>
     </section>
 
     <section id="proyectos">
-  <h2>Actividades de DIWEB</h2>
-      
-  <div class="proyecto">
-    <h3>🍵 Actividad 2.2 </h3>
-    <p>— Lenguaje CSS: Orden en cascada
-       <a href="tema-2/2.2/linea.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-  <div class="proyecto">
-    <h3>🎨 Actividad 2.3 </h3>
-    <p>— Sintaxis e inclusión de CSS
-       <a href="tema-2/2.3/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-  <div class="proyecto">
-    <h3>🧩 Actividad 2.4 </h3>
-    <p>— Introducción CSS
-       <a href="tema-2/2.4/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-  <div class="proyecto">
-    <h3>📱 Actividad 2.5 </h3>
-    <p>— Introducción CSS
-       <a href="tema-2/2.5/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-  <div class="proyecto">
-    <h3>🖼️ Actividad 2.6</h3>
-    <p> — Selectores básicos 
-       <a href="tema-2/2.6/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-  <div class="proyecto">
-    <h3>🎴 Actividad 2.7</h3>
-    <p> — Selectores básicos 
-       <a href="tema-2/2.7/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-  <div class="proyecto">
-    <h3>🚀 Actividad 2.8</h3>
-    <p> — Selectores básicos 
-       <a href="tema-2/2.8/index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-     <div class="proyecto">
-    <h3>🪢 Actividad 2.9</h3>
-    <p> — Selectores
-       <a href="tema-2/2.9/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-     <div class="proyecto">
-    <h3>🪵 Actividad 2.10</h3>
-    <p> — Selectores básicos 
-       <a href="tema-2/2.10/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div> 
-
-     <div class="proyecto">
-    <h3>☄️ Actividad 2.11</h3>
-    <p> -Lenguaje CSS: Especificidad
-       <a href="tema-2/2.11/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div> 
-
-      <div class="proyecto">
-    <h3>🔶 Actividad 2.12</h3>
-    <p> -Herencia
-       <a href="tema-2/2.12/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div> 
-
-      <div class="proyecto">
-    <h3>📍 Actividad 2.13</h3>
-    <p>- Los tres conceptos: Herencia, especificidad y cascada
-       <a href="tema-2/2.13/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div> 
-
-      <div class="proyecto">
-    <h3>🪁 Actividad 2.14</h3>
-    <p> -Unidades de medida
-       <a href="tema-2/2.14/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div> 
-
-      <div class="proyecto">
-    <h3>💫 Actividad 2.15</h3>
-    <p> -Propiedades: colores y fondo
-       <a href="tema-2/2.15/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div> 
-
-      <div class="proyecto">
-    <h3>💭 Actividad 2.16</h3>
-    <p> -Propiedades: colores y fondo
-       <a href="tema-2/2.16/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div> 
-
-      <div class="proyecto">
-    <h3>🦴 Actividad 2.17</h3>
-    <p> -Opacidad y transparencia
-       <a href="tema-2/2.17/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div> 
-
-      <div class="proyecto">
-    <h3>🔱 Actividad 2.18</h3>
-    <p> -Propiedades: texto
-       <a href="tema-2/2.18/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div> 
-
-      <div class="proyecto">
-    <h3>🪃 Actividad 2.19</h3>
-    <p> -Propiedades: texto
-       <a href="tema-2/2.19/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div> 
-
-      <div class="proyecto">
-    <h3>🛖 Actividad 2.20</h3>
-    <p> -Propiedades: texto
-       <a href="tema-2/2.20/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div> 
-
-      <div class="proyecto">
-    <h3>🏺 Actividad 2.21</h3>
-    <p>Lenguaje CSS: Bordes
-       <a href="tema-2/2.21/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div> 
-
-      <div class="proyecto">
-    <h3>🛹 Actividad 2.22</h3>
-    <p>- Lenguaje CSS: Márgenes
-       <a href="tema-2/2.22/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div> 
-
-      <div class="proyecto">
-    <h3>🌵 Actividad 2.23</h3>
-    <p>- Lenguaje CSS: Relleno
-       <a href="tema-2/2.23/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div> 
-
-      <div class="proyecto">
-    <h3>🍉 Actividad 2.24</h3>
-    <p>- Lenguaje CSS: Contenido (alto y ancho)
-       <a href="tema-2/2.24/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div> 
-
-      <div class="proyecto">
-    <h3>💮 Actividad 2.25</h3>
-    <p>- Box Model
-       <a href="tema-2/2.25/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div> 
-
-      <div class="proyecto">
-    <h3>🌀 Actividad 2.26</h3>
-    <p>- Box Model: box-sizing
-       <a href="tema-2/2.26/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div> 
-
-      <div class="proyecto">
-    <h3>🗼 Actividad 2.27</h3>
-    <p>- Lenguaje CSS: width, max-width y margin: auto
-       <a href="tema-2/2.27/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div> 
-
-      <div class="proyecto">
-    <h3>🌉 Actividad 2.28</h3>
-    <p>- Lenguaje CSS: width, max-width y margin: auto
-       <a href="tema-2/2.28/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-      <div class="proyecto">
-    <h3>🏯 Actividad 2.29</h3>
-    <p>- Lenguaje CSS: width, max-width y margin: auto
-       <a href="tema-2/2.29/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-      <div class="proyecto">
-    <h3>🪐 Actividad 2.30</h3>
-    <p>- Lenguaje CSS: width, max-width y margin: auto
-       <a href="tema-2/2.30/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-      <div class="proyecto">
-    <h3>🗿 Actividad 2.31</h3>
-    <p>- Lenguaje CSS: width, max-width y margin: auto
-       <a href="tema-2/2.31/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-      <div class="proyecto">
-    <h3>🛸 Actividad 2.32</h3>
-    <p>- Lenguaje CSS: width, max-width y margin: auto
-       <a href="tema-2/2.32/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-      <div class="proyecto">
-    <h3>🌪️ Actividad 2.33</h3>
-    <p>- Lenguaje CSS: width, max-width y margin: auto
-       <a href="tema-2/2.33/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-      <div class="proyecto">
-    <h3>🍄 Actividad 2.34</h3>
-    <p>- Lenguaje CSS: width, max-width y margin: auto
-       <a href="tema-2/2.34/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-      <div class="proyecto">
-    <h3>🏝️ Actividad 2.35</h3>
-    <p>- Lenguaje CSS: width, max-width y margin: auto
-       <a href="tema-2/2.35/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-      <div class="proyecto">
-    <h3>💡 Actividad 2.36</h3>
-    <p>- Lenguaje CSS: width, max-width y margin: auto
-       <a href="tema-2/2.36/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-      <div class="proyecto">
-    <h3>🍖 Actividad 2.37</h3>
-    <p>- Lenguaje CSS: width, max-width y margin: auto
-       <a href="tema-2/2.37/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-      <div class="proyecto">
-    <h3>🌷 Actividad 2.38</h3>
-    <p>- Lenguaje CSS: width, max-width y margin: auto
-       <a href="tema-2/2.38/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-      <div class="proyecto">
-    <h3>🔭 Actividad 2.39</h3>
-    <p>- Lenguaje CSS: width, max-width y margin: auto
-       <a href="tema-2/2.39/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-      <div class="proyecto">
-    <h3>⚡ Actividad 2.40</h3>
-    <p>- Lenguaje CSS: width, max-width y margin: auto
-       <a href="tema-2/2.40/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-      <div class="proyecto">
-    <h3>🧊 Actividad 2.41</h3>
-    <p>- Lenguaje CSS: width, max-width y margin: auto
-       <a href="tema-2/2.41/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-      <div class="proyecto">
-    <h3>🧨 Actividad 2.42</h3>
-    <p>- Lenguaje CSS: width, max-width y margin: auto
-       <a href="tema-2/2.42/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-      <div class="proyecto">
-    <h3>🎪 Actividad 2.43</h3>
-    <p>- Lenguaje CSS: width, max-width y margin: auto
-       <a href="tema-2/2.43/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-      <div class="proyecto">
-    <h3>✈️ Actividad 2.44</h3>
-    <p>- Lenguaje CSS: width, max-width y margin: auto
-       <a href="tema-2/2.44/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-
-      <div class="proyecto">
-    <h3>🗿 Actividad 2.45</h3>
-    <p>- Lenguaje CSS: width, max-width y margin: auto
-       <a href="tema-2/2.45/Index.html" target="_blank">Ver actividad</a>
-    </p>
-  </div>
-</section>
-    
+      <h2>Actividades de DIWEB</h2>
+      <div class="selector" id="selectorTemas">
+        <button class="tema-btn activo" data-tema="2" type="button">Tema 2</button>
+        <button class="tema-btn" data-tema="3" type="button">Tema 3</button>
+        <button class="tema-btn" data-tema="4" type="button">Tema 4</button>
+        <button class="tema-btn" data-tema="5" type="button">Tema 5</button>
+        <button class="tema-btn" data-tema="6" type="button">Tema 6</button>
+      </div>
+      <p class="tema-info" id="temaInfo"></p>
+      <div class="grid-actividades" id="listaActividades"></div>
+    </section>
 
     <section id="contacto">
       <h2>Contacto</h2>
       <p>📧 <a href="mailto:jgommes1501@g.educaand.es">jgommes1501@g.educaand.es</a></p>
-      <p>🔗 <a href="https://github.com/jgommes1501" target="_blank">https://github.com/jgommes1501</a></p>
+      <p>🔗 <a href="https://github.com/jgommes1501" target="_blank" rel="noopener noreferrer">https://github.com/jgommes1501</a></p>
     </section>
   </main>
 
   <footer>
-    © 2025 Jaime Gómez Mesa · 日本の美 (Belleza japonesa) · Página creada para DIWEB
+    © 2026 Jaime Gómez Mesa · 日本の美 (Belleza japonesa) · Página creada para DIWEB
   </footer>
+
+  <script>
+    const actividadesPorTema = {
+      2: [
+        { id: '2.2', url: 'tema-2/2.2/linea.html' }, { id: '2.3', url: 'tema-2/2.3/Index.html' },
+        { id: '2.4', url: 'tema-2/2.4/Index.html' }, { id: '2.5', url: 'tema-2/2.5/Index.html' },
+        { id: '2.6', url: 'tema-2/2.6/Index.html' }, { id: '2.7', url: 'tema-2/2.7/Index.html' },
+        { id: '2.8', url: 'tema-2/2.8/index.html' }, { id: '2.9', url: 'tema-2/2.9/Index.html' },
+        { id: '2.10', url: 'tema-2/2.10/Index.html' }, { id: '2.11', url: 'tema-2/2.11/Index.html' },
+        { id: '2.12', url: 'tema-2/2.12/Index.html' }, { id: '2.13', url: 'tema-2/2.13/Index.html' },
+        { id: '2.14', url: 'tema-2/2.14/Index.html' }, { id: '2.15', url: 'tema-2/2.15/Index.html' },
+        { id: '2.16', url: 'tema-2/2.16/Index.html' }, { id: '2.17', url: 'tema-2/2.17/Index.html' },
+        { id: '2.18', url: 'tema-2/2.18/Index.html' }, { id: '2.19', url: 'tema-2/2.19/Index.html' },
+        { id: '2.20', url: 'tema-2/2.20/Index.html' }, { id: '2.21', url: 'tema-2/2.21/Index.html' },
+        { id: '2.22', url: 'tema-2/2.22/Index.html' }, { id: '2.23', url: 'tema-2/2.23/Index.html' },
+        { id: '2.24', url: 'tema-2/2.24/Index.html' }, { id: '2.25', url: 'tema-2/2.25/Index.html' },
+        { id: '2.26', url: 'tema-2/2.26/Index.html' }, { id: '2.27', url: 'tema-2/2.27/Index.html' },
+        { id: '2.28', url: 'tema-2/2.28/Index.html' }, { id: '2.29', url: 'tema-2/2.29/Index.html' },
+        { id: '2.30', url: 'tema-2/2.30/Index.html' }, { id: '2.32', url: 'tema-2/2.32/Index.html' },
+        { id: '2.33', url: 'tema-2/2.33/Index.html' }, { id: '2.34', url: 'tema-2/2.34/Index.html' },
+        { id: '2.35', url: 'tema-2/2.35/Index.html' }, { id: '2.36', url: 'tema-2/2.36/Index.html' },
+        { id: '2.37', url: 'tema-2/2.37/Index.html' }, { id: '2.38', url: 'tema-2/2.38/Index.html' },
+        { id: '2.39', url: 'tema-2/2.39/Index.html' }, { id: '2.40', url: 'tema-2/2.40/Index.html' },
+        { id: '2.41', url: 'tema-2/2.41/Index.html' }, { id: '2.42', url: 'tema-2/2.42/Index.html' },
+        { id: '2.43', url: 'tema-2/2.43/Index.html' }, { id: '2.44', url: 'tema-2/2.44/Index.html' },
+        { id: '2.45', url: 'tema-2/2.45/Index.html' }, { id: '3.32', url: 'tema-2/3.32/Index.html' },
+        { id: '3.33', url: 'tema-2/3.33/Index.html' }, { id: '3.34', url: 'tema-2/3.34/Index.html' },
+        { id: '3.35', url: 'tema-2/3.35/Index.html' }, { id: '3.36', url: 'tema-2/3.36/Index.html' }
+      ],
+      3: [
+        { id: '3.1', url: 'tema-3/3.1/index.html' }, { id: '3.2', url: 'tema-3/3.2/index.html' },
+        { id: '3.3', url: 'tema-3/3.3/index.html' }, { id: '3.4', url: 'tema-3/3.4/index.html' },
+        { id: '3.5', url: 'tema-3/3.5/index.html' }, { id: '3.6', url: 'tema-3/3.6/index.html' },
+        { id: '3.7', url: 'tema-3/3.7/index.html' }, { id: '3.8', url: 'tema-3/3.8/index.html' }
+      ],
+      4: [
+        { id: '4.0', url: 'tema-4/4.0/index.html' }, { id: '4.1', url: 'tema-4/4.1/index.html' },
+        { id: '4.2', url: 'tema-4/4.2/index.html' }, { id: '4.3', url: 'tema-4/4.3/index.html' },
+        { id: '4.4', url: 'tema-4/4.4/index.html' }, { id: '4.5', url: 'tema-4/4.5/index.html' },
+        { id: '4.6', url: 'tema-4/4.6/index.html' }, { id: '4.7', url: 'tema-4/4.7/index.html' },
+        { id: '4.8', url: 'tema-4/4.8/index.html' }
+      ],
+      5: [
+        { id: '5.3', url: 'tema-5/5.3/index.html' },
+        { id: '5.4', url: null },
+        { id: '5.5', url: null },
+        { id: '5.6', url: 'tema-5/5.6/index.html' }
+      ],
+      6: [
+        { id: '6.1', url: 'tema-6/6.1/index.html' }, { id: '6.2', url: 'tema-6/6.2/index.html' },
+        { id: '6.3', url: 'tema-6/6.3/index.html' }
+      ]
+    };
+
+    const botonesTema = document.querySelectorAll('.tema-btn');
+    const listaActividades = document.getElementById('listaActividades');
+    const temaInfo = document.getElementById('temaInfo');
+
+    function renderTema(tema) {
+      const actividades = actividadesPorTema[tema] || [];
+      temaInfo.textContent = `Tema ${tema}: ${actividades.length} actividad(es)`;
+
+      listaActividades.innerHTML = actividades.map((actividad) => {
+        if (!actividad.url) {
+          return `
+            <article class="proyecto">
+              <h3>Actividad ${actividad.id}</h3>
+              <p>Sin archivo de entrada todavía.</p>
+            </article>
+          `;
+        }
+
+        return `
+          <article class="proyecto">
+            <h3>Actividad ${actividad.id}</h3>
+            <p><a href="${actividad.url}" target="_blank" rel="noopener noreferrer">Ver actividad</a></p>
+          </article>
+        `;
+      }).join('');
+    }
+
+    botonesTema.forEach((boton) => {
+      boton.addEventListener('click', () => {
+        botonesTema.forEach((item) => item.classList.remove('activo'));
+        boton.classList.add('activo');
+        renderTema(boton.dataset.tema);
+      });
+    });
+
+    renderTema('2');
+  </script>
 </body>
 </html>
