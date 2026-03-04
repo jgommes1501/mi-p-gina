@@ -8,20 +8,13 @@ Portafolio personal para recopilar actividades de **DIWEB (Diseño de Interfaces
 - 🗾 Intereses: diseño web, front-end y estética japonesa
 - 🌐 GitHub Pages: [jgommes1501.github.io/mi-p-gina](https://jgommes1501.github.io/mi-p-gina/)
 
-## ✨ Novedad en la portada
-
-En [index.html](index.html) ahora hay un **selector de temas (2 al 6)**.
-
-- Al pulsar un tema, se muestran solo sus actividades.
-- Cada tarjeta redirige a su actividad correspondiente.
-- Si una actividad no tiene `index.html`, aparece como pendiente.
-
 ## 🧰 Tecnologías
 
 - HTML5
 - CSS3
 - JavaScript (vanilla)
 - GitHub Pages
+- SCSS
 
 ## 📚 Actividades por tema
 
